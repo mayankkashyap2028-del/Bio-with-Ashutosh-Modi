@@ -1,1 +1,719 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio with Ashutosh Modi | Class 9th & 10th Biology NCERT</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        bio: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            200: '#bbf7d0',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-bio-100 selection:text-bio-800">
 
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="bg-gradient-to-r from-bio-900 via-bio-800 to-emerald-950 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium shadow-sm">
+        <span>🌱 New Academic Batches & Free NCERT Biology Notes are Live!</span>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex justify-between items-center">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl bg-bio-600 text-white flex items-center justify-center text-xl shadow-md shadow-bio-500/30 group-hover:scale-105 transition">
+                    <i class="fa-solid fa-dna animate-pulse"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold tracking-tight text-slate-900 block leading-tight">
+                        Bio with <span class="text-bio-600">Ashutosh Modi</span>
+                    </span>
+                    <span class="text-[11px] font-semibold text-slate-500 tracking-wider uppercase">Class 9th & 10th NCERT Biology</span>
+                </div>
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden lg:flex items-center gap-7 font-semibold text-sm text-slate-600">
+                <a href="#class9" class="hover:text-bio-600 transition">Class 9th Notes</a>
+                <a href="#class10" class="hover:text-bio-600 transition">Class 10th Notes</a>
+                <a href="#lectures" class="hover:text-bio-600 transition">Video Lectures</a>
+                <a href="#gallery" class="hover:text-bio-600 transition">Class Gallery</a>
+                <a href="#connect" class="hover:text-bio-600 transition">Official Channels</a>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <a href="#connect" class="bg-bio-600 hover:bg-bio-700 text-white text-sm font-semibold px-4 py-2 rounded-xl shadow-sm hover:shadow-md transition inline-flex items-center gap-2">
+                    <i class="fa-brands fa-youtube text-red-300"></i>
+                    <span>Official Channels</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="relative overflow-hidden pt-12 pb-20 bg-gradient-to-b from-bio-50/70 via-white to-slate-50 border-b border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-bio-100 border border-bio-200 text-bio-800 text-xs font-bold tracking-wide uppercase">
+                    <i class="fa-solid fa-microscope text-bio-600"></i> Concept Clarity for Board Exams
+                </div>
+                
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-[1.15] tracking-tight">
+                    Fall in Love with <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-bio-600 to-emerald-800">Biology Concepts</span>
+                </h1>
+
+                <p class="text-base sm:text-lg text-slate-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+                    Class 9th and 10th NCERT Biology simplified line-by-line with Ashutosh Modi Sir. Crystal clear diagrams, simplified hand-written notes, and high-yield video lectures.
+                </p>
+
+                <!-- Action Buttons -->
+                <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
+                    <a href="#lectures" class="bg-slate-900 hover:bg-black text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl transition flex items-center gap-2">
+                        <i class="fa-solid fa-circle-play text-bio-500"></i> Watch Lectures
+                    </a>
+                    <a href="#class10" class="bg-white hover:bg-slate-100 text-slate-800 border border-slate-300 font-semibold px-6 py-3.5 rounded-xl transition flex items-center gap-2">
+                        <i class="fa-regular fa-file-pdf text-red-500"></i> Get NCERT Notes
+                    </a>
+                </div>
+
+                <!-- Feature Stats -->
+                <div class="grid grid-cols-3 gap-4 pt-6 border-t border-slate-200 max-w-lg mx-auto lg:mx-0 text-left">
+                    <div>
+                        <p class="text-2xl font-bold text-slate-900">100%</p>
+                        <p class="text-xs text-slate-500 font-medium">NCERT Covered</p>
+                    </div>
+                    <div>
+                        <p class="text-2xl font-bold text-bio-600">Class 9 & 10</p>
+                        <p class="text-xs text-slate-500 font-medium">Dedicated Curriculum</p>
+                    </div>
+                    <div>
+                        <p class="text-2xl font-bold text-slate-900">Free</p>
+                        <p class="text-xs text-slate-500 font-medium">PDF Study Material</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ashutosh Sir Profile Graphic Card -->
+            <div class="lg:col-span-5 flex justify-center">
+                <div class="relative w-full max-w-sm">
+                    <div class="absolute -top-4 -left-4 w-72 h-72 bg-bio-300/40 rounded-full blur-3xl -z-10"></div>
+                    <div class="absolute -bottom-4 -right-4 w-72 h-72 bg-emerald-200/40 rounded-full blur-3xl -z-10"></div>
+                    
+                    <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-2xl relative">
+                        <div class="w-full h-80 rounded-2xl bg-gradient-to-tr from-bio-700 to-emerald-500 flex flex-col items-center justify-center text-white text-center p-6 shadow-inner relative overflow-hidden">
+                            <i class="fa-solid fa-leaf absolute -right-6 -bottom-6 text-white/10 text-9xl"></i>
+                            
+                            <div class="w-28 h-28 rounded-full border-4 border-white/80 shadow-lg bg-white/20 flex items-center justify-center text-5xl mb-4 backdrop-blur-md">
+                                <i class="fa-solid fa-user-graduate text-white"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold">Ashutosh Modi Sir</h3>
+                            <p class="text-bio-100 text-xs mt-1 uppercase tracking-wider font-semibold">Biology Mentor & Educator</p>
+                            <span class="mt-4 px-3 py-1 bg-white/20 text-xs rounded-full border border-white/30 backdrop-blur-sm">
+                                "Concept Samjho, Ratto Mat!"
+                            </span>
+                        </div>
+                        <div class="mt-4 text-center">
+                            <p class="text-xs text-slate-400 font-medium">Ashutosh Modi Sir's Profile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- SECTION: CLASS 9TH BIOLOGY (NCERT) -->
+    <section id="class9" class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+                <div>
+                    <span class="text-bio-600 font-bold text-xs uppercase tracking-wider">Foundation Builders</span>
+                    <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Class 9th Biology (NCERT Notes)</h2>
+                    <p class="text-slate-500 text-sm mt-1">Comprehensive chapter notes, diagrams, and summary sheets ready for download.</p>
+                </div>
+                <span class="mt-3 md:mt-0 text-xs bg-slate-100 font-semibold px-3 py-1.5 rounded-lg border border-slate-200 text-slate-600">
+                    Syllabus: NCERT Science (Bio Units)
+                </span>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Ch 1: Cell -->
+                <div class="border border-slate-200 rounded-2xl p-6 hover:border-bio-500 hover:shadow-lg transition bg-slate-50/50 group">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-bold px-2.5 py-1 bg-bio-100 text-bio-800 rounded-md">Chapter 5</span>
+                        <i class="fa-solid fa-circle-nodes text-2xl text-slate-400 group-hover:text-bio-600 transition"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-bio-700 transition">The Fundamental Unit of Life</h3>
+                    <p class="text-xs text-slate-500 mt-2 line-clamp-2">Cell organelles, plasma membrane, nucleus, plant vs animal cell with clean diagrams.</p>
+                    <div class="mt-6 pt-4 border-t border-slate-200/80 flex items-center justify-between">
+                        <span class="text-xs text-slate-400 font-medium"><i class="fa-regular fa-file-lines mr-1"></i> Hand-Written PDF</span>
+                        <a href="#" class="inline-flex items-center gap-1.5 text-xs font-bold text-bio-600 hover:text-bio-700 bg-bio-50 hover:bg-bio-100 px-3 py-2 rounded-lg transition">
+                            <i class="fa-solid fa-arrow-down"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Ch 2: Tissues -->
+                <div class="border border-slate-200 rounded-2xl p-6 hover:border-bio-500 hover:shadow-lg transition bg-slate-50/50 group">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-bold px-2.5 py-1 bg-bio-100 text-bio-800 rounded-md">Chapter 6</span>
+                        <i class="fa-solid fa-layer-group text-2xl text-slate-400 group-hover:text-bio-600 transition"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-bio-700 transition">Tissues</h3>
+                    <p class="text-xs text-slate-500 mt-2 line-clamp-2">Meristematic & permanent plant tissues, epithelial, connective, muscular and nervous tissues.</p>
+                    <div class="mt-6 pt-4 border-t border-slate-200/80 flex items-center justify-between">
+                        <span class="text-xs text-slate-400 font-medium"><i class="fa-regular fa-file-lines mr-1"></i> Hand-Written PDF</span>
+                        <a href="#" class="inline-flex items-center gap-1.5 text-xs font-bold text-bio-600 hover:text-bio-700 bg-bio-50 hover:bg-bio-100 px-3 py-2 rounded-lg transition">
+                            <i class="fa-solid fa-arrow-down"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Ch 3: Food Resources -->
+                <div class="border border-slate-200 rounded-2xl p-6 hover:border-bio-500 hover:shadow-lg transition bg-slate-50/50 group">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-bold px-2.5 py-1 bg-bio-100 text-bio-800 rounded-md">Chapter 12</span>
+                        <i class="fa-solid fa-wheat-awn text-2xl text-slate-400 group-hover:text-bio-600 transition"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-bio-700 transition">Improvement in Food Resources</h3>
+                    <p class="text-xs text-slate-500 mt-2 line-clamp-2">Crop variety improvement, manures, fertilizers, animal husbandry & fisheries.</p>
+                    <div class="mt-6 pt-4 border-t border-slate-200/80 flex items-center justify-between">
+                        <span class="text-xs text-slate-400 font-medium"><i class="fa-regular fa-file-lines mr-1"></i> Hand-Written PDF</span>
+                        <a href="#" class="inline-flex items-center gap-1.5 text-xs font-bold text-bio-600 hover:text-bio-700 bg-bio-50 hover:bg-bio-100 px-3 py-2 rounded-lg transition">
+                            <i class="fa-solid fa-arrow-down"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: CLASS 10TH BIOLOGY (NCERT) -->
+    <section id="class10" class="py-16 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+                <div>
+                    <span class="text-emerald-700 font-bold text-xs uppercase tracking-wider">Board Exam Ready</span>
+                    <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Class 10th Biology (NCERT Notes)</h2>
+                    <p class="text-slate-500 text-sm mt-1">High-yield revision notes, NCERT exemplar solutions, and step-by-step diagram guides.</p>
+                </div>
+                <span class="mt-3 md:mt-0 text-xs bg-emerald-100 font-semibold px-3 py-1.5 rounded-lg border border-emerald-200 text-emerald-800">
+                    Target: 100/100 Science Boards
+                </span>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Ch 1: Life Processes -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover:border-emerald-500 hover:shadow-lg transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-xs font-bold px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-md">Chapter 5</span>
+                        <i class="fa-solid fa-heart-pulse text-2xl text-rose-500"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-bio-600 transition">Life Processes</h3>
+                    <p class="text-xs text-slate-500 mt-2">Nutrition (Photosynthesis & Digestive System), Respiration, Transportation (Heart & Blood), and Excretion (Nephron).</p>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs text-slate-400 font-medium"><i class="fa-solid fa-file-pdf text-red-500 mr-1"></i> Full Notes</span>
+                        <a href="#" class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 hover:text-emerald-800 bg-emerald-50 hover:bg-emerald-100 px-3 py-2 rounded-lg transition">
+                            <i class="fa-solid fa-arrow-down"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Ch 2: Control & Coordination -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover:border-emerald-500 hover:shadow-lg transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-xs font-bold px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-md">Chapter 6</span>
+                        <i class="fa-solid fa-brain text-2xl text-purple-500"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-bio-600 transition">Control and Coordination</h3>
+                    <p class="text-xs text-slate-500 mt-2">Human Brain, Neuron structure, reflex arcs, plant hormones (Auxin, Cytokinins), and endocrine glands.</p>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs text-slate-400 font-medium"><i class="fa-solid fa-file-pdf text-red-500 mr-1"></i> Full Notes</span>
+                        <a href="#" class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 hover:text-emerald-800 bg-emerald-50 hover:bg-emerald-100 px-3 py-2 rounded-lg transition">
+                            <i class="fa-solid fa-arrow-down"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Ch 3: How do Organisms Reproduce -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover:border-emerald-500 hover:shadow-lg transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-xs font-bold px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-md">Chapter 7</span>
+                        <i class="fa-solid fa-seedling text-2xl text-bio-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-bio-600 transition">How do Organisms Reproduce?</h3>
+                    <p class="text-xs text-slate-500 mt-2">Asexual vs sexual reproduction, flower anatomy & pollination, male/female reproductive systems.</p>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs text-slate-400 font-medium"><i class="fa-solid fa-file-pdf text-red-500 mr-1"></i> Full Notes</span>
+                        <a href="#" class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 hover:text-emerald-800 bg-emerald-50 hover:bg-emerald-100 px-3 py-2 rounded-lg transition">
+                            <i class="fa-solid fa-arrow-down"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Ch 4: Heredity -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover:border-emerald-500 hover:shadow-lg transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-xs font-bold px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-md">Chapter 8</span>
+                        <i class="fa-solid fa-dna text-2xl text-blue-500"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-bio-600 transition">Heredity</h3>
+                    <p class="text-xs text-slate-500 mt-2">Mendel’s laws of inheritance, Monohybrid and Dihybrid cross, and sex determination in humans.</p>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs text-slate-400 font-medium"><i class="fa-solid fa-file-pdf text-red-500 mr-1"></i> Full Notes</span>
+                        <a href="#" class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 hover:text-emerald-800 bg-emerald-50 hover:bg-emerald-100 px-3 py-2 rounded-lg transition">
+                            <i class="fa-solid fa-arrow-down"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Ch 5: Our Environment -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover:border-emerald-500 hover:shadow-lg transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-xs font-bold px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-md">Chapter 13</span>
+                        <i class="fa-solid fa-earth-americas text-2xl text-emerald-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-bio-600 transition">Our Environment</h3>
+                    <p class="text-xs text-slate-500 mt-2">Ecosystem components, Food chain & Food web, 10% energy law, biological magnification, and ozone depletion.</p>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs text-slate-400 font-medium"><i class="fa-solid fa-file-pdf text-red-500 mr-1"></i> Full Notes</span>
+                        <a href="#" class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 hover:text-emerald-800 bg-emerald-50 hover:bg-emerald-100 px-3 py-2 rounded-lg transition">
+                            <i class="fa-solid fa-arrow-down"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: VIDEO LECTURES -->
+    <section id="lectures" class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-bio-600 font-bold text-xs uppercase tracking-wider">Video Classrooms</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Chapter-Wise Video Lectures</h2>
+                <p class="text-slate-500 text-sm mt-2">Detailed NCERT explanations on YouTube with Ashutosh Sir. Click below to start learning.</p>
+            </div>
+
+            <!-- Video Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Lecture Item 1 -->
+                <div class="bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 hover:shadow-xl transition flex flex-col">
+                    <div class="relative bg-slate-900 h-44 flex items-center justify-center group overflow-hidden">
+                        <div class="absolute inset-0 bg-cover bg-center opacity-60 group-hover:scale-105 transition duration-300" style="background-image: url('https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=600&auto=format&fit=crop&q=80');"></div>
+                        <a href="https://www.youtube.com" target="_blank" class="relative z-10 w-12 h-12 bg-red-600/90 text-white rounded-full flex items-center justify-center text-lg shadow-lg group-hover:scale-110 group-hover:bg-red-600 transition">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </a>
+                        <span class="absolute bottom-2 right-2 bg-black/70 text-white text-[10px] font-bold px-2 py-0.5 rounded">Class 10th</span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-bold text-bio-600 uppercase">Chapter 5 • NCERT</span>
+                            <h3 class="font-bold text-slate-900 text-base mt-1">Life Processes - Complete One Shot</h3>
+                            <p class="text-xs text-slate-500 mt-1">Digestion, Respiration, Transportation & Excretion explained with board questions.</p>
+                        </div>
+                        <a href="https://www.youtube.com" target="_blank" class="mt-4 inline-flex items-center gap-2 text-xs font-bold text-red-600 hover:text-red-700">
+                            <i class="fa-brands fa-youtube text-sm"></i> Watch Lecture on YouTube &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Lecture Item 2 -->
+                <div class="bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 hover:shadow-xl transition flex flex-col">
+                    <div class="relative bg-slate-900 h-44 flex items-center justify-center group overflow-hidden">
+                        <div class="absolute inset-0 bg-cover bg-center opacity-60 group-hover:scale-105 transition duration-300" style="background-image: url('https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=600&auto=format&fit=crop&q=80');"></div>
+                        <a href="https://www.youtube.com" target="_blank" class="relative z-10 w-12 h-12 bg-red-600/90 text-white rounded-full flex items-center justify-center text-lg shadow-lg group-hover:scale-110 group-hover:bg-red-600 transition">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </a>
+                        <span class="absolute bottom-2 right-2 bg-black/70 text-white text-[10px] font-bold px-2 py-0.5 rounded">Class 10th</span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-bold text-bio-600 uppercase">Chapter 6 • NCERT</span>
+                            <h3 class="font-bold text-slate-900 text-base mt-1">Control and Coordination in 1 Shot</h3>
+                            <p class="text-xs text-slate-500 mt-1">Human brain structure, neurons, reflex arc, and plant movements explained visually.</p>
+                        </div>
+                        <a href="https://www.youtube.com" target="_blank" class="mt-4 inline-flex items-center gap-2 text-xs font-bold text-red-600 hover:text-red-700">
+                            <i class="fa-brands fa-youtube text-sm"></i> Watch Lecture on YouTube &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Lecture Item 3 -->
+                <div class="bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 hover:shadow-xl transition flex flex-col">
+                    <div class="relative bg-slate-900 h-44 flex items-center justify-center group overflow-hidden">
+                        <div class="absolute inset-0 bg-cover bg-center opacity-60 group-hover:scale-105 transition duration-300" style="background-image: url('https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600&auto=format&fit=crop&q=80');"></div>
+                        <a href="https://www.youtube.com" target="_blank" class="relative z-10 w-12 h-12 bg-red-600/90 text-white rounded-full flex items-center justify-center text-lg shadow-lg group-hover:scale-110 group-hover:bg-red-600 transition">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </a>
+                        <span class="absolute bottom-2 right-2 bg-black/70 text-white text-[10px] font-bold px-2 py-0.5 rounded">Class 9th</span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-bold text-bio-600 uppercase">Chapter 5 • NCERT</span>
+                            <h3 class="font-bold text-slate-900 text-base mt-1">The Fundamental Unit of Life (Cell)</h3>
+                            <p class="text-xs text-slate-500 mt-1">Cell theory, osmosis vs diffusion, and detailed microscopic organelle breakdown.</p>
+                        </div>
+                        <a href="https://www.youtube.com" target="_blank" class="mt-4 inline-flex items-center gap-2 text-xs font-bold text-red-600 hover:text-red-700">
+                            <i class="fa-brands fa-youtube text-sm"></i> Watch Lecture on YouTube &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Lecture Item 4 -->
+                <div class="bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 hover:shadow-xl transition flex flex-col">
+                    <div class="relative bg-slate-900 h-44 flex items-center justify-center group overflow-hidden">
+                        <div class="absolute inset-0 bg-cover bg-center opacity-60 group-hover:scale-105 transition duration-300" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80');"></div>
+                        <a href="https://www.youtube.com" target="_blank" class="relative z-10 w-12 h-12 bg-red-600/90 text-white rounded-full flex items-center justify-center text-lg shadow-lg group-hover:scale-110 group-hover:bg-red-600 transition">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </a>
+                        <span class="absolute bottom-2 right-2 bg-black/70 text-white text-[10px] font-bold px-2 py-0.5 rounded">Class 9th</span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-bold text-bio-600 uppercase">Chapter 6 • NCERT</span>
+                            <h3 class="font-bold text-slate-900 text-base mt-1">Plant & Animal Tissues In-Depth</h3>
+                            <p class="text-xs text-slate-500 mt-1">Xylem, Phloem, and blood tissues simplified with easy memorization tricks.</p>
+                        </div>
+                        <a href="https://www.youtube.com" target="_blank" class="mt-4 inline-flex items-center gap-2 text-xs font-bold text-red-600 hover:text-red-700">
+                            <i class="fa-brands fa-youtube text-sm"></i> Watch Lecture on YouTube &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Lecture Item 5 -->
+                <div class="bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 hover:shadow-xl transition flex flex-col">
+                    <div class="relative bg-slate-900 h-44 flex items-center justify-center group overflow-hidden">
+                        <div class="absolute inset-0 bg-cover bg-center opacity-60 group-hover:scale-105 transition duration-300" style="background-image: url('https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&auto=format&fit=crop&q=80');"></div>
+                        <a href="https://www.youtube.com" target="_blank" class="relative z-10 w-12 h-12 bg-red-600/90 text-white rounded-full flex items-center justify-center text-lg shadow-lg group-hover:scale-110 group-hover:bg-red-600 transition">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </a>
+                        <span class="absolute bottom-2 right-2 bg-black/70 text-white text-[10px] font-bold px-2 py-0.5 rounded">Class 10th</span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-bold text-bio-600 uppercase">Chapter 7 • NCERT</span>
+                            <h3 class="font-bold text-slate-900 text-base mt-1">Reproduction in Organisms & Humans</h3>
+                            <p class="text-xs text-slate-500 mt-1">All board diagram special: Human reproduction and flower fertilization.</p>
+                        </div>
+                        <a href="https://www.youtube.com" target="_blank" class="mt-4 inline-flex items-center gap-2 text-xs font-bold text-red-600 hover:text-red-700">
+                            <i class="fa-brands fa-youtube text-sm"></i> Watch Lecture on YouTube &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Lecture Item 6 -->
+                <div class="bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 hover:shadow-xl transition flex flex-col">
+                    <div class="relative bg-slate-900 h-44 flex items-center justify-center group overflow-hidden">
+                        <div class="absolute inset-0 bg-cover bg-center opacity-60 group-hover:scale-105 transition duration-300" style="background-image: url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&auto=format&fit=crop&q=80');"></div>
+                        <a href="https://www.youtube.com" target="_blank" class="relative z-10 w-12 h-12 bg-red-600/90 text-white rounded-full flex items-center justify-center text-lg shadow-lg group-hover:scale-110 group-hover:bg-red-600 transition">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </a>
+                        <span class="absolute bottom-2 right-2 bg-black/70 text-white text-[10px] font-bold px-2 py-0.5 rounded">Class 10th</span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-bold text-bio-600 uppercase">Chapter 8 • NCERT</span>
+                            <h3 class="font-bold text-slate-900 text-base mt-1">Heredity & Punnett Square Tricks</h3>
+                            <p class="text-xs text-slate-500 mt-1">Mendel crosses made effortless. 100% score in board cross questions.</p>
+                        </div>
+                        <a href="https://www.youtube.com" target="_blank" class="mt-4 inline-flex items-center gap-2 text-xs font-bold text-red-600 hover:text-red-700">
+                            <i class="fa-brands fa-youtube text-sm"></i> Watch Lecture on YouTube &rarr;
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: PHOTO GALLERY (ZOOM IN / OUT MODAL) -->
+    <section id="gallery" class="py-16 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-bio-600 font-bold text-xs uppercase tracking-wider">Class Memories & Visuals</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Classroom & Diagram Gallery</h2>
+                <p class="text-slate-500 text-sm mt-2">Click on any photo to open the interactive viewer with Zoom In (+) and Zoom Out (-) features.</p>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div onclick="openModal('https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1000&auto=format&fit=crop&q=80', 'Biology Lab Session')" class="group relative h-48 rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-md transition">
+                    <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=500&auto=format&fit=crop&q=80" alt="Biology Lab" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-3">
+                        <span class="text-white text-xs font-semibold"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Zoom In</span>
+                    </div>
+                </div>
+
+                <div onclick="openModal('https://images.unsplash.com/photo-1576086213369-97a306d36557?w=1000&auto=format&fit=crop&q=80', 'Microscope Cellular View')" class="group relative h-48 rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-md transition">
+                    <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=500&auto=format&fit=crop&q=80" alt="Microscope Cellular View" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-3">
+                        <span class="text-white text-xs font-semibold"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Zoom In</span>
+                    </div>
+                </div>
+
+                <div onclick="openModal('https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1000&auto=format&fit=crop&q=80', 'Classroom Teaching Moments')" class="group relative h-48 rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-md transition">
+                    <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=500&auto=format&fit=crop&q=80" alt="Classroom Teaching" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-3">
+                        <span class="text-white text-xs font-semibold"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Zoom In</span>
+                    </div>
+                </div>
+
+                <div onclick="openModal('https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=1000&auto=format&fit=crop&q=80', 'DNA & Genetics Discussion')" class="group relative h-48 rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-md transition">
+                    <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=500&auto=format&fit=crop&q=80" alt="DNA Discussion" class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-3">
+                        <span class="text-white text-xs font-semibold"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Zoom In</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ZOOM MODAL POPUP -->
+    <div id="imageModal" class="fixed inset-0 bg-black/90 z-50 hidden flex-col items-center justify-center p-4 backdrop-blur-sm">
+        <div class="w-full max-w-4xl flex justify-between items-center text-white mb-3">
+            <span id="modalCaption" class="text-sm font-semibold tracking-wide text-slate-300">Image Preview</span>
+            <button onclick="closeModal()" class="text-slate-300 hover:text-white text-2xl font-bold bg-white/10 hover:bg-white/20 w-9 h-9 rounded-full flex items-center justify-center transition">
+                &times;
+            </button>
+        </div>
+
+        <div class="flex items-center gap-3 bg-slate-800/90 border border-slate-700 px-4 py-2 rounded-full mb-3 text-white text-sm shadow-xl">
+            <button onclick="zoomOut()" title="Zoom Out" class="hover:text-bio-400 px-2 py-1 transition flex items-center gap-1">
+                <i class="fa-solid fa-magnifying-glass-minus text-base"></i>
+                <span class="hidden sm:inline">Zoom Out</span>
+            </button>
+            <span class="text-slate-500">|</span>
+            <span id="zoomLevel" class="font-mono text-xs px-2 text-bio-400">100%</span>
+            <span class="text-slate-500">|</span>
+            <button onclick="zoomIn()" title="Zoom In" class="hover:text-bio-400 px-2 py-1 transition flex items-center gap-1">
+                <i class="fa-solid fa-magnifying-glass-plus text-base"></i>
+                <span class="hidden sm:inline">Zoom In</span>
+            </button>
+            <span class="text-slate-500">|</span>
+            <button onclick="resetZoom()" class="hover:text-amber-400 px-2 py-1 transition text-xs font-semibold">
+                Reset
+            </button>
+        </div>
+
+        <div class="relative w-full max-w-4xl h-[70vh] flex items-center justify-center overflow-auto rounded-2xl bg-black/40 border border-white/10 p-2">
+            <img id="modalImage" src="" alt="Expanded View" class="max-h-full max-w-full object-contain transition-transform duration-200 select-none">
+        </div>
+    </div>
+
+    <!-- SECTION: CONNECT CHANNELS (YOUTUBE, WHATSAPP CHANNEL, INSTAGRAM) -->
+    <section id="connect" class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-bio-600 font-bold text-xs uppercase tracking-wider">Join The Community</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Official Channels & Socials</h2>
+                <p class="text-slate-500 text-sm mt-2">Subscribe to YouTube, join the official WhatsApp Channel for PDF notices, and follow on Instagram.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <!-- 1. YouTube Card -->
+                <div class="bg-gradient-to-br from-red-50 via-white to-white border border-red-200 rounded-3xl p-7 hover:shadow-xl transition group text-center flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 bg-red-600 text-white rounded-2xl flex items-center justify-center text-3xl shadow-lg shadow-red-500/30 group-hover:scale-110 transition mx-auto mb-5">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <h3 class="text-xl font-extrabold text-slate-900">YouTube Channel</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm mt-2 leading-relaxed">Chapter one-shots, animated diagrams, NCERT line-by-line decoding and board PYQ sessions.</p>
+                    </div>
+                    <a href="https://www.youtube.com" id="yt-link" target="_blank" class="mt-6 w-full py-3 px-4 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-xs sm:text-sm shadow-md transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-youtube text-base"></i> Subscribe Channel
+                    </a>
+                </div>
+
+                <!-- 2. WhatsApp Channel Card -->
+                <div class="bg-gradient-to-br from-emerald-50 via-white to-white border border-emerald-200 rounded-3xl p-7 hover:shadow-xl transition group text-center flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 bg-emerald-600 text-white rounded-2xl flex items-center justify-center text-3xl shadow-lg shadow-emerald-500/30 group-hover:scale-110 transition mx-auto mb-5">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <h3 class="text-xl font-extrabold text-slate-900">WhatsApp Channel</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm mt-2 leading-relaxed">Direct lecture links, PDF notes notification, chapter test schedules & quick revision updates.</p>
+                    </div>
+                    <a href="https://whatsapp.com/channel" id="wa-channel-link" target="_blank" class="mt-6 w-full py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm shadow-md transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-base"></i> Join WhatsApp Channel
+                    </a>
+                </div>
+
+                <!-- 3. Instagram Card -->
+                <div class="bg-gradient-to-br from-pink-50 via-purple-50 to-white border border-pink-200 rounded-3xl p-7 hover:shadow-xl transition group text-center flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 text-white rounded-2xl flex items-center justify-center text-3xl shadow-lg shadow-pink-500/30 group-hover:scale-110 transition mx-auto mb-5">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <h3 class="text-xl font-extrabold text-slate-900">Instagram Page</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm mt-2 leading-relaxed">60-second biology reels, diagram mnemonics, daily quiz stories, and concept tricks.</p>
+                    </div>
+                    <a href="https://www.instagram.com" id="insta-link" target="_blank" class="mt-6 w-full py-3 px-4 rounded-xl bg-gradient-to-r from-pink-600 via-rose-600 to-purple-600 hover:opacity-95 text-white font-bold text-xs sm:text-sm shadow-md transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-instagram text-base"></i> Follow on Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER WITH VISITOR COUNTER & MAYANK KASHYAP CREDIT -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center pb-8 border-b border-slate-800/80 text-center md:text-left">
+                
+                <!-- Website Title & Intro -->
+                <div>
+                    <span class="text-xl font-extrabold text-white tracking-tight flex items-center justify-center md:justify-start gap-2">
+                        <i class="fa-solid fa-dna text-bio-500"></i> Bio with Ashutosh Modi
+                    </span>
+                    <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+                        Dedicated online educational platform for Class 9th & 10th NCERT Biology students.
+                    </p>
+                </div>
+
+                <!-- LIVE VISITOR COUNTER WIDGET -->
+                <div class="flex justify-center">
+                    <div class="inline-flex items-center gap-3 bg-slate-900/90 border border-slate-800 px-5 py-2.5 rounded-2xl shadow-inner">
+                        <div class="w-3 h-3 rounded-full bg-emerald-500 animate-pulse"></div>
+                        <div class="text-left">
+                            <p class="text-[10px] uppercase font-bold tracking-widest text-slate-400">Total Visits</p>
+                            <span id="visitor-count" class="font-mono text-lg font-extrabold text-emerald-400">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DEVELOPER CREDIT: MAYANK KASHYAP (BIHAR) -->
+                <div class="flex flex-col items-center md:items-end">
+                    <div class="bg-gradient-to-r from-slate-900 to-slate-800/90 border border-slate-800 p-3.5 rounded-2xl text-right inline-block shadow-md">
+                        <p class="text-[11px] text-slate-400 font-medium">
+                            Designed & Developed with <i class="fa-solid fa-heart text-rose-500 mx-0.5 animate-bounce"></i> by
+                        </p>
+                        <p class="text-base font-extrabold text-white mt-0.5 tracking-wide">
+                            Mayank Kashyap
+                        </p>
+                        <p class="text-xs font-semibold text-emerald-400 flex items-center justify-center md:justify-end gap-1.5 mt-0.5">
+                            <i class="fa-solid fa-location-dot text-rose-400 text-[10px]"></i> Bihar, India
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-3 text-center sm:text-left">
+                <p>&copy; 2026 Bio with Ashutosh Modi. All rights reserved.</p>
+                <p>Curated for CBSE & State Board NCERT Excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT: ZOOM MODAL & VISITOR COUNTER -->
+    <script>
+        // 1. ZOOM MODAL FUNCTIONALITY
+        let currentScale = 1;
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        const modalCaption = document.getElementById('modalCaption');
+        const zoomLevelLabel = document.getElementById('zoomLevel');
+
+        function openModal(imgSrc, caption) {
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            modalImg.src = imgSrc;
+            modalCaption.innerText = caption;
+            currentScale = 1;
+            applyZoom();
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = 'auto';
+        }
+
+        function zoomIn() {
+            if (currentScale < 3.0) {
+                currentScale += 0.25;
+                applyZoom();
+            }
+        }
+
+        function zoomOut() {
+            if (currentScale > 0.5) {
+                currentScale -= 0.25;
+                applyZoom();
+            }
+        }
+
+        function resetZoom() {
+            currentScale = 1;
+            applyZoom();
+        }
+
+        function applyZoom() {
+            modalImg.style.transform = `scale(${currentScale})`;
+            zoomLevelLabel.innerText = Math.round(currentScale * 100) + '%';
+        }
+
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                closeModal();
+            }
+        });
+
+        // 2. LIVE VISITOR COUNTER LOGIC
+        async function fetchVisitorCount() {
+            const counterElement = document.getElementById('visitor-count');
+            try {
+                // Free counter API namespace for this specific project
+                const res = await fetch('https://api.counterapi.dev/v1/bio_ashutosh_modi/visits/up');
+                if (res.ok) {
+                    const data = await res.json();
+                    counterElement.innerText = Number(data.count).toLocaleString();
+                } else {
+                    throw new Error('API offline');
+                }
+            } catch (err) {
+                // Smooth local fallback if offline or API limit reached
+                let localCount = parseInt(localStorage.getItem('mayank_bio_visitors') || '1480', 10);
+                localCount += 1;
+                localStorage.setItem('mayank_bio_visitors', localCount);
+                counterElement.innerText = localCount.toLocaleString();
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', fetchVisitorCount);
+    </script>
+</body>
+</html>
